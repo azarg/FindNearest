@@ -159,6 +159,7 @@ MonoBehaviour:
   NumEnemies: 1000
   NumBullets: 1000
   EnemyPositions: []
+  BulletTransforms: []
 --- !u!4 &7882268
 Transform:
   m_ObjectHideFlags: 0

@@ -77,5 +77,8 @@ public class MoveBullet : MonoBehaviour
             }
             Debug.DrawLine(bulletPosition, closestEnemyPosition);
         }
+        else if (Spawner.Instance.UseAlgorithm == Algorithms.BruteForceJob) {
+            // implemented in the Spawner class
+        }
     }
 }
